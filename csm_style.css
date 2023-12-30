@@ -1,0 +1,80 @@
+body{
+    background-color: #0e275a;
+    color: white;
+    text-align: center;
+} 
+
+h1{
+    font-size: 80px;
+    margin-bottom: -30px;
+}
+
+#author{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#description{
+    text-align: center;
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+a{
+    color: whitesmoke;
+    padding: 45px;
+    font-size: 25px;
+}
+
+#asa, #denji, #power, #pochita{
+    padding: 25px;
+    font-size: 25px;
+    background-color: rgb(19, 19, 69);
+    border-radius: 10px;
+    margin: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    overflow: auto;
+}
+
+.container{
+    display: flex;
+}
+
+img{
+    height: 200px;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 200px;
+}
+
+.watermark{
+    background-image: url('https://cdn.vox-cdn.com/thumbor/v6iJVAeyKD8OetowRsfNn3n58F8=/0x171:1200x771/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/21932734/ChainsawMan_GN01_C1_Catalog.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.caption1, .caption2{
+    display: block;
+    color: rgb(0, 101, 189);
+    font-weight: bold;
+    font-style: italic;
+    background-color: aliceblue; 
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    top: 80%;
+}
+
+.caption1{
+    margin-left: 30px;
+    top: 80%;
+}
+
+.caption2{
+    margin-left: 75%;
+    top: 60%;
+
+}
